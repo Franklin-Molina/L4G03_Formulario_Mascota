@@ -1,0 +1,57 @@
+body{
+  
+    margin: 0;
+    padding: 0;
+    background: url(../img/star.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.Tabls{
+
+    margin: 100px auto;
+    width: 500px;
+
+}
+table{
+    background-color: azure;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+   border: solid 1px black; 
+    padding: 20;
+}
+th, td{
+  
+    padding: 20;
+}
+thead{
+    background-color: rgb(44, 141, 31);
+    border-bottom: solid 3px rgb(0, 0, 0);
+    color: rgb(155, 216, 182);
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+  }
+  tr:nth-child(even){
+      background-color: rgb(192, 139, 24);
+
+  }
+  img{
+     width: 100px;
+     height: 100px;
+     position: relative;
+     left: 200px;
+    
+
+  }
+  
+  

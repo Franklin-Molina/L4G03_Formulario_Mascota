@@ -1,0 +1,98 @@
+body{
+  
+    margin: 0;
+    padding: 0;
+    background: url(../img/star.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+
+.login-box{
+  width: 320px;
+  height: 500px;
+  background: rgb(173, 202, 167);
+  color: aliceblue;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px; 
+}
+
+.login-box .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;/* para ubicar el avatar arriba*/
+  left: calc(50% - 50px);
+}
+.login-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+    color: black;
+}
+
+.login-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: black;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-box input[type="text"]{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: black;
+  font-size: 16px;
+}
+.login-box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: black;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+ .a{
+
+  width: 100px;
+  height: 100px;
+  background: rgb(207, 56, 56);
+  color: aliceblue;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px; 
+
+}
+img{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 420px;/* para ubicar el avatar arriba*/
+  left: calc(50% - 50px);
+/*
+
+  position: relative;
+  top: -40px;
+  left: 70px;
+  */
+}
