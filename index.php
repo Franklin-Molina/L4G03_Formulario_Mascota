@@ -48,7 +48,7 @@
          <td><?php echo $mostrar['nombre'] ?></td>
          <td><?php echo $mostrar['raza'] ?></td>
          <td><?php echo $mostrar['edad'] ?></td>
-         <td><a href="modificar.php?id=<?php echo $mostrar['id'] ?>">Modificar</a>
+         <td><a href="modificar.php?id=<?php echo $mostrar['id'] ?> "class="mod">Modificar</a >
          <td><a href="eliminar.php?id=<?php echo $mostrar['id'] ?>">Eliminar</a>
        
          

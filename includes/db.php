@@ -8,7 +8,7 @@
 class DB{
    static $host = "localhost";
    static $user ="root";
-   static $password= "12345678";
+   static $password= "";
    static $db="datos_php";
     
     public static function init(){
